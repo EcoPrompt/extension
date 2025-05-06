@@ -1,0 +1,61 @@
+#answerButton {
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    font-size: 24px;
+    font-size: 24px;
+    width: 38px;
+  }
+  
+  #awnserPopup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    z-index: 1000;
+  }
+  
+  .container {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table td {
+    background-color: #fff;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
