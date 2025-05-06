@@ -1,0 +1,185 @@
+[
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 0.001,
+      "description": "l'eau utilisée pour produire une puce électronique"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 0.2,
+      "description": "l'eau consommée par une chasse d'eau économique"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 0.5,
+      "description": "l'eau contenue dans une petite bouteille"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 2,
+      "description": "l'eau bue par un humain en une journée"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 10,
+      "description": "l'eau pour produire une feuille de papier"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 50,
+      "description": "l'eau pour un cycle court de lave-vaisselle"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 140,
+      "description": "l'eau pour produire une tasse de café"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 200,
+      "description": "l'eau pour une douche de 5 minutes"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 3000,
+      "description": "l'eau pour produire un t-shirt"
+    },
+    {
+      "category": "water",
+      "unit": "l",
+      "value": 15000,
+      "description": "l'eau pour produire 1 g de bœuf"
+    },
+  
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 0.001,
+      "description": "la consommation d'une montre connectée par jour"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 0.01,
+      "description": "la consommation d'une box internet pendant une heure"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 0.06,
+      "description": "la consommation d'une ampoule LED pendant 10 heures"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 0.15,
+      "description": "la consommation d'une TV pendant 5 heures"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 0.3,
+      "description": "la consommation d'un micro-ondes en 30 min"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 1.5,
+      "description": "la consommation d’un PC portable par jour"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 3,
+      "description": "un cycle de lave-vaisselle"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 9,
+      "description": "un cycle chaud de lave-linge"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 15,
+      "description": "la consommation journalière d’un foyer français"
+    },
+    {
+      "category": "electricity",
+      "unit": "kWh",
+      "value": 40,
+      "description": "la recharge complète d'une voiture électrique"
+    },
+  
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 1,
+      "description": "les émissions d’un email sans pièce jointe"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 10,
+      "description": "les émissions pour bouillir 1L d’eau"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 40,
+      "description": "les émissions pour 1 km en train"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 200,
+      "description": "les émissions pour 1 km en voiture"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 500,
+      "description": "les émissions pour produire 1 kWh en France"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 1000,
+      "description": "les émissions d’un steak de bœuf"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 2000,
+      "description": "une journée d’ordinateur dans un data center"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 5000,
+      "description": "un aller-retour Paris–Lyon en train"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 30000,
+      "description": "un aller-retour Paris–Londres en avion"
+    },
+    {
+      "category": "co2",
+      "unit": "g",
+      "value": 100000,
+      "description": "les émissions annuelles d’un smartphone"
+    }
+  ]
+  

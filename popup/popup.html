@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="popup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoPrompt - Tableau d'impact</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
 
-    <h1 id="hello-world">Popup Hello World!</h1>
-    <script src="popup.js"></script>
+    <img style="width: 25%;" src="../images/logo.png" alt="">
+
+  <div class="tabs">
+    <button class="tab-button active" data-index="0">Dernière requête</button>
+    <button class="tab-button" data-index="1">Toute la conversation</button>
+    <button class="tab-button" data-index="2">30 derniers jours</button>
+  </div>
+
+  <div class="impact-container">
+    <table id="impact-table">
+      <thead>
+        <tr>
+          <th id="score-title">Score : 2138</th>
+          <th>Quantité</th>
+          <th>Équivalence</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">Eau</td>
+          <td>0.3 L</td>
+          <td>L'eau bue par un chat en une journée</td>
+        </tr>
+        <tr>
+          <td class="row-label">CO₂</td>
+          <td>2 g</td>
+          <td>Démarrage d'une moto</td>
+        </tr>
+        <tr>
+          <td class="row-label">Électricité</td>
+          <td>1 kWh</td>
+          <td>Recharge complète d’un téléphone</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="popup.js"></script>
+
 </body>
 </html>
