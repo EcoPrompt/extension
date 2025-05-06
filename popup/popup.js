@@ -54,7 +54,21 @@ const data = [
   
       return; // ne continue pas plus loin
     }
-  
+
+    if (index === 1) {
+        const scorec = 136;
+        const co2ec = scorec * 2; // ~2g CO₂e par point
+        const electricitec = scorec * 0.01; // ~0.01 Wh par point
+        const eauc = scorec * 0.3; // ~0.3 L par point
+
+        const convp = {
+            score: scorec,
+            eau: eauc,
+            electricite: electricitec,
+            co2e: co2ec
+        } 
+        chrome.storage.local.set({ CONV: convp })
+    }
     chrome.storage.local.get([dataused[index]], (result) => {
       const data = result[dataused[index]];
   
